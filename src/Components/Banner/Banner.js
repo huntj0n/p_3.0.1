@@ -9,10 +9,10 @@ const Banner = () => {
                 <div className="row">
                     <h2>
                         <div className="line">
-                            <span>Creating engaging websites</span>  
+                            <span>Creating engaging websites and</span>  
                         </div>
                         <div className="line">
-                            <span>is what I do.</span>  
+                            <span>applications is what I do.</span>  
                         </div>
                     </h2>
                     <div className="btn-row">
