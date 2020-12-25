@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 
 @import './Variables.scss';
-@import './Components//Header.scss';
+@import './Components/Header/Header.scss';
 
 .app {
   // text-align: center;
@@ -32,7 +32,7 @@
   .row {
     display: flex;
     height: 100%;
-    padding: 0 32px;
+    // padding: 0 32px;
     @include media("<=phone") {
       padding: 0 16px;
     }
