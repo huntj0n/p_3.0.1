@@ -15,7 +15,7 @@ const Contact = () => {
                         <input type="text" placeholder='Enter your email here.'/>
                         <p>Message:</p>
                         <input type="text" placeholder='Enter your message here.'/>
-                        <button>Enter your Inquiry</button>
+                        <button>Send Inquiry</button>
                     </div>
                 </div>
             </div>
