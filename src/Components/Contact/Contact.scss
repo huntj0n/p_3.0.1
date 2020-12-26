@@ -21,7 +21,9 @@
             span {
                 color: $darkred;
                 font-size: larger;
-            }
+                position: relative;
+                right: 10px;
+            }   
         }
         .contact__info {
             display: flex;
@@ -46,6 +48,7 @@
                 }
             }
             button {
+                cursor: pointer;
                 margin-top: 40px;
                 outline: none;
                 border: none;
@@ -55,6 +58,12 @@
                 color: white;  
                 text-transform: uppercase;
                 font-weight: 500; 
+                transition: .4s;
+
+                &:hover {
+                    color: $darkgray;
+                    opacity: 5;
+                }
             }
         }
     }

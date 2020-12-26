@@ -1,0 +1,34 @@
+@import '../../Variables.scss';
+
+.comp {
+    width: 100vw;
+    background-color: $darkred;
+    color: $white;
+    padding: 75px 0;
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+
+        .comp__info {
+            padding: 8px;
+            margin: 20px 0;
+
+            h3 {
+                padding-top: 5px;
+                text-transform: uppercase;
+                font-size: 14px;
+            }
+            p {
+                padding-bottom: 5px;
+            }
+        }
+    }
+}
