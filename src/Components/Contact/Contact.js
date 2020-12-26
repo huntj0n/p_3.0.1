@@ -4,7 +4,21 @@ import './Contact.scss';
 const Contact = () => {
     return (
         <div className='contact'>
-            Reach Out to me you filthy aminal
+            <div className="container">
+                <div className="row">
+                    <h1>Contact Me <span>.</span></h1>
+                    
+                    <div className="contact__info">
+                        <p>Name:</p>
+                        <input type="text" placeholder='Enter your name here.'/>
+                        <p>Email:</p>
+                        <input type="text" placeholder='Enter your email here.'/>
+                        <p>Message:</p>
+                        <input type="text" placeholder='Enter your message here.'/>
+                        <button>Enter your Inquiry</button>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

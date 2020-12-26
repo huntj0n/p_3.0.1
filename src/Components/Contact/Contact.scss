@@ -1,7 +1,55 @@
 @import '../../Variables.scss';
 
 .contact {
-    height: 90vh;
+    // height: 90vh;
     width: 100vw;
-    background-color: $mediumgray;
+    background-color: $lightgray;
+    padding: 75px 0;
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        color: $darkgray;
+
+        h1 {
+            font-weight: 700;
+            font-size: 48px;
+            margin-bottom: 50px;
+
+            span {
+                color: $darkred;
+                font-size: larger;
+            }
+        }
+        .contact__info {
+            display: flex;
+            flex-direction: column;
+
+            p {
+
+            }
+            input {
+                width: 500px;
+                border: none;
+                border-radius: 5px;
+                padding: 15px;
+                background-color: $mediumgray;
+                margin-bottom: 20px;
+
+                &::placeholder {
+                    color: white;
+                }
+            }
+            button {
+                outline: none;
+                border: none;
+                border-radius: 5px;
+                padding: 10px;
+                background-color: $darkred; 
+                color: white;   
+            }
+        }
+    }
 }
