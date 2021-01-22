@@ -12,7 +12,7 @@ const Banner = () => {
                             <span>Creating engaging websites and</span>  
                         </div>
                         <div className="line">
-                            <span>applications is what I do.</span>  
+                            <span>applications is what I do <span>.</span></span>  
                         </div>
                     </h2>
                     <div className="btn-row">

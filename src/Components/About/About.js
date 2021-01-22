@@ -11,15 +11,12 @@ const About = () => {
                     <div className="background">
                         <div className="mua">
                             <div className="yoursTruly">
-                                
+
                             </div>
                         </div>
                         <p>
                             Hi, my name is Jon. Im a Salt Lake City based software developer.
                         </p>
-                    </div>
-                    <div className="competencies">
-
                     </div>
                 </div>
             </div>
